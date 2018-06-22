@@ -2,5 +2,10 @@
 Pyinstaller GUI
 From now on, easily convert Python scripts to the Windows executable file
 
-## Using 
+## Requirements 
     pip install pyinstaller 
+    
+    
+# Usage
+
+
