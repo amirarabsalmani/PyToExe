@@ -23,7 +23,7 @@ From now on, easily convert Python scripts to the Windows executable file
 #### Contact us
 - WebSite Ultra Security Team : https://ultrasec.org
 - Channel Telegram : https://t.me/UltraSecurity
-- Contact with Milad Ranjbar : http://t.me/milad_sec
+- Contact with Milad Ranjbar : https://t.me/milad_sec
 
 
 
