@@ -4,6 +4,7 @@ From now on, easily convert Python scripts to the Windows executable file
 
 ### Requirements 
     pip install pyinstaller 
+    PyQt 4
     
     
 ### Usage
