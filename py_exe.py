@@ -62,13 +62,19 @@ class MainApp(QMainWindow, Ui_MainWindow):
     """ Radio Buttons """
     def console(self):
         if self.radioButton_2.isChecked() == True:
-            os.system('pyinstaller -i="{}" --name={} --distpath={} -F "{}"'.format(self.lineEdit_3.text(), self.lineEdit_4.text(),self.lineEdit_2.text() ,self.lineEdit.text()))
+            os.system(
+                f'pyinstaller -i="{self.lineEdit_3.text()}" --name={self.lineEdit_4.text()} --distpath={self.lineEdit_2.text()} -F "{self.lineEdit.text()}"'
+            )
+
             QMessageBox.information(self,"Show Window", "Done !!")
 
 
 
         elif self.radioButton_3.isChecked() == True:
-            os.system('pyinstaller -i="{}" --windowed --name={} --distpath={} -F "{}"'.format(self.lineEdit_3.text(),self.lineEdit_4.text(),self.lineEdit_2.text() ,self.lineEdit.text()))
+            os.system(
+                f'pyinstaller -i="{self.lineEdit_3.text()}" --windowed --name={self.lineEdit_4.text()} --distpath={self.lineEdit_2.text()} -F "{self.lineEdit.text()}"'
+            )
+
             QMessageBox.information(self, "Hiden Windows", "Done !")
 
 
